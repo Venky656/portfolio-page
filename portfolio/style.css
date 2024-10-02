@@ -1,0 +1,265 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section{
+    display: block;
+}
+header {
+    background-color: #7600bc;
+    color: #fff; 
+    padding: 9px;
+    height:16vh;
+}
+.profile{
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width:99%;
+      height: 120px;
+      margin-left: 30px;
+    
+}
+
+.left-section h1 {
+    margin-top: 90px;
+    font-size:31px;
+    font-weight:200;
+    
+    
+}
+
+.left-section p {
+    font-size: 20px;
+    line-height: 1.1;
+    padding-bottom: 45px;
+    
+}
+.left-section img {
+    width: 25px; 
+    margin-right: 3px;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap:75px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: lightgray;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffffffff;
+    font-size: 21px;
+    font-weight: 700;
+    
+
+}
+.about-me{
+    display: flex;
+  
+
+}
+.profile-pic img{
+    width: 555px;
+    height: fit-content;
+    margin: 5px;
+ 
+}
+
+.profile-info h1{
+    font-size: 4rem;
+    color: #7600bc;
+    margin-top: 85px;
+}
+.profile-info h1 span img{
+    width: 55px;
+}
+.profile-info P{
+ font-size:25px;
+font-weight: 500;
+color: gray;
+}
+.Skill-Section{
+    height: fit-content;
+}
+.Skill{
+   
+    width: 90%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.skill{
+   width:220px;
+   height: 220;
+   padding: 30px;
+   margin: 40px 30px 20px 30px;
+  box-shadow:inset 0 0 10px rgba(188, 92, 92, 0.5);
+   border: 2px solid rgb(237, 217, 217);
+   border-radius: 6px;
+ text-align: center;
+ cursor:grab;
+ 
+
+  
+}
+.skill img{
+    height: 40px;
+}
+
+h2{
+    color: #7600bc;
+    font-size: 52px;
+    margin: 40px 0 0 60px;
+  
+}
+.porjects{
+    height:fit-content
+   
+}
+.porjects p{
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 120px;
+   
+}
+.porjects ul li{
+ margin-left: 125px;
+ font-size: 21px;
+ padding-bottom: 25px;
+}
+hr{
+    height: 1.5px; 
+    background-color:lightgrey; 
+    border: none;
+    width: 76%;
+    margin-left:15em;  
+  
+}
+.recommendations-section{
+    margin-top:90px ;
+    flex-wrap: wrap;
+}
+.recommendation{
+    margin: 30px 30px 80px 30px;
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+    flex-flow: wrap;
+
+   
+    
+ 
+}
+.box{
+    width: 9.36cm;
+    height:150px;
+    border:1px solid grey;
+    font-size:18px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.108);
+    border-radius: 10px;
+   text-align: left;
+   
+    cursor: pointer;
+}
+.quote-mark {
+    color:gray;
+}
+/* General form container styling */
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  .contact-form {
+    text-align: center;
+  }
+  
+  .contact-heading {
+    text-align:left;
+    font-size: 29px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color:#333333;
+  }
+  
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .form-input:focus, .form-textarea:focus {
+    border-color:#7a29a9;
+    box-shadow: 0 0 5px #d28cfa9e;
+    outline-style: none;
+  }
+  
+  .submit {
+    width: 12em;
+    padding: 12px;
+    font-size: 20px;
+    font-weight:500;
+    color:#7600bc;
+    background-color:#ffffff;
+    border: 1px solid #7700bcb5;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px;
+
+  }
+  
+  .submit:hover {
+    background-color:#7600bc;
+    color: #fff;
+
+  }
+  .home-arrow a {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #7600bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+}
+
+
+.home-arrow a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+  
+  
+
+  
+  
